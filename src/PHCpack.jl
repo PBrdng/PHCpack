@@ -44,4 +44,17 @@ function phc(
     nothing
 end
 
+function phc(
+        f::Vector{HC.Expression};
+        kwargs...
+    )
+    phc(HC.System(f); kwargs...)
+end
+function phc(
+        f::HC.Expression;
+        kwargs...
+    )
+    phc(HC.System([f]); kwargs...)
+end
+
 end
