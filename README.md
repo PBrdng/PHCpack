@@ -18,7 +18,7 @@ phc(f)
 
 The full syntax of `phc` is as follows
 ```julia
-phc(f::HC.System;
+phc(f;
     file_path = mktempdir(),
     phc_path = "",
     cmd_options = "-b",
