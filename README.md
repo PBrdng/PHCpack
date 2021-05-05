@@ -11,7 +11,7 @@ we type
 using PHCpack
 @var x y
 
-f = System([x^2 - y + 1 ; x + y + 4])
+f = [x^2 - y + 1 ; x + y + 4]
 
 phc(f)
 ```
