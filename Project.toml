@@ -1,0 +1,8 @@
+name = "PHCpack"
+uuid = "4b15500e-f54b-4a6d-9b7b-6718926d315a"
+authors = ["Sascha Timme <sascha@timme.xyz>, Paul Breiding <pbrdng@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+HomotopyContinuation = "f213a82b-91d6-5c5d-acf7-10f1c761b327"
